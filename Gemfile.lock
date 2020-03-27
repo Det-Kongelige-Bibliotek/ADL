@@ -70,7 +70,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
-    crass (1.0.4)
+    crass (1.0.6)
     debug_inspector (0.0.2)
     deprecation (1.0.0)
       activesupport
@@ -127,21 +127,21 @@ GEM
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
     libv8 (3.16.14.17)
-    logger (1.2.8)
-    loofah (2.2.2)
+    logger (1.4.2)
+    loofah (2.4.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     mini_mime (1.0.0)
-    mini_portile2 (2.3.0)
+    mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.12.1)
     multipart-post (2.0.0)
-    nokogiri (1.8.4)
-      mini_portile2 (~> 2.3.0)
-    nokogiri (1.8.4-x86-mingw32)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.9-x86-mingw32)
+      mini_portile2 (~> 2.4.0)
     oai (0.4.0)
       builder (>= 3.1.0)
       faraday
@@ -245,7 +245,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jettywrapper (>= 2.0)
   jquery-rails
-  kbcookie!
   oai
   rails (= 4.2.9)
   rsolr (~> 1.0.6)
